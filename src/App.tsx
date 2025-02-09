@@ -26,7 +26,7 @@ function App() {
               </Suspense>
             </Stage>
             <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -2, 0]}>
-              <planeGeometry args={[170, 170]} />
+              <planeGeometry args={[180, 180]} />
               <MeshReflectorMaterial
                 blur={[0, 0]}
                 resolution={256}
